@@ -5,16 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.6.1] - 2021-10-26
+### Fixed
+-   GitHub [issue #42](https://github.com/aws-solutions/discovering-hot-topics-using-machine-learning/issues/42). To fix the issue, RSS feed ingestion lambda function and SQLs related to the Amazon QuickSight dashboard were updated.
+
+### Updated
+-   AWS CDK version to 1.125.0
+-   AWS SDK version to 2.1008.0
+
 ## [1.6.0] - 2021-09-27
 
 ### Added
 
--   Ingest YouTube comments
+-   Capability to ingest YouTube comments
 
 ### Updated
 
--   AWS CDK version to 1.120.0
--   AWS SDK version to 2.985.0
+-   AWS CDK version to 1.121.0
+-   AWS SDK version to 2.991.0
 -   Updated Amazon QuickSight analysis and dashboard to reflect the new ingestion source
 
 ## [1.5.0] - 2021-07-22
